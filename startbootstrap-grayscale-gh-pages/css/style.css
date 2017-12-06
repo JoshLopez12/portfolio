@@ -1,0 +1,57 @@
+.intro-body {
+  background: #5f9fd3;
+
+}
+.content-section {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: #5f9fd3;
+  background: -webkit-linear-gradient(#5f9fd3, #2c6ca0);
+  background: -o-linear-gradient(#5f9fd3, #2c6ca0);
+  background: -moz-linear-gradient(#5f9fd3, #2c6ca0);
+  background: linear-gradient(#5f9fd3, #2c6ca0);
+}
+.download-section {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: #2c6ca0;
+  background: -webkit-linear-gradient(#2c6ca0, #163650);
+  background: -o-linear-gradient(#2c6ca0, #163650);
+  background: -moz-linear-gradient(#2c6ca0, #163650);
+  background: linear-gradient(#2c6ca0, #163650);
+}
+.contact-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: #163650;
+  background: -webkit-linear-gradient(#163650, #0b1b28);
+  background: -o-linear-gradient(#163650, #0b1b28);
+  background: -moz-linear-gradient(#163650, #0b1b28);
+  background: linear-gradient(#163650, #0b1b28);
+}
+.end-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: #0b1b28;
+  background: -webkit-linear-gradient(#0b1b28, #000000);
+  background: -o-linear-gradient(#0b1b28, #000000);
+  background: -moz-linear-gradient(#0b1b28, #000000);
+  background: linear-gradient(#0b1b28, #000000);
+}
+footer {
+  padding: 199px 0;
+  background: url(C:/Users/Josh/Pictures/tentacle2.jpg);
+  background-size: 100%;
+}
