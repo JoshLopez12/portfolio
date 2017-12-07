@@ -52,6 +52,13 @@
 }
 footer {
   padding: 199px 0;
-  background: url(C:/Users/Josh/Pictures/tentacle2.jpg);
+  /*background: url(C:/Users/Josh/Pictures/tentacle2.jpg);*/
+  background: url("../pix/tentacle.jpg");
   background-size: 100%;
+}
+.fixed-top {
+  right: 650px;
+}
+#logo:hover {
+  content: url("../pix/sub2.svg");
 }
