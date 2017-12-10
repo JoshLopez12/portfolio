@@ -52,31 +52,56 @@
 }
 footer {
   padding: 199px 0;
-  /*background: url(C:/Users/Josh/Pictures/tentacle2.jpg);*/
   background: url("../pix/tentacle.jpg");
   background-size: 100%;
 }
 .fixed-top {
-  right: 650px;
+  right: 0px;
 }
-#logo:hover {
-  content: url("../pix/sub2.svg");
+.logo {
+  position: fixed;
+  top: 8em;
+  left: 5em;
+  z-index: 0;
 }
-.sidenav {
-    width: 320px;
-    position: fixed;
-    z-index: 1;
-    top: 20px;
-    left: 10px;
-    overflow-x: hidden;
-    padding: 8px 0;
+.logo:hover{
+  animation-name: in;
+  animation-duration: 60s;
 }
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #2196F3;
-    display: block;
+@keyframes in {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: translate(250px, 100px) rotate(90deg);
+  }
+  20% {
+    transform: translate(250px, 300px) rotate(90deg);
+  }
+  30% {
+    transform: translate(350px, 550px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1100px, 550px) rotate(-25deg);
+  }
+  50% {
+    transform: translate(1300px, 350px) rotate(-90deg);
+  }
+  60% {
+    transform: translate(1300px, 100px) rotate(-135deg);
+  }
+  70% {
+    transform: translate(600px, -25px) rotate(-180deg);
+  }
+  80% {
+    transform: translate(100px, 0px) rotate(-200deg);
+  }
+  90% {
+    transform: translate(50px, 0px) rotate(-270deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(-360deg);
+  }
 }
 .dropdown {
     position: fixed;
@@ -106,4 +131,10 @@ footer {
 }
 .dropdown:hover .dropdown-content {
     display: block;
+}
+.navbar-shrink#mainNav{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  background: #000000;
 }
