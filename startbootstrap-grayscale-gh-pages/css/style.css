@@ -3,6 +3,7 @@
 
 }
 .content-section {
+  padding-top: 100px;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -25,7 +26,7 @@
   background: linear-gradient(#2c6ca0, #163650);
 }
 .contact-section {
-  padding-top: 200px;
+  padding-top: 100px;
   padding-bottom: 200px;
   height: 100%;
   background-position: center;
