@@ -139,3 +139,13 @@ footer {
   border-bottom: 1px solid rgba(255, 255, 255, 1);
   background: #000000;
 }
+ul#gall li {
+    display:inline;
+}
+div.scroll {
+    background-color: #c9c9c9;
+    width: 1000px;
+    height: 700px;
+    border-radius: 15px;
+    overflow: scroll;
+}
